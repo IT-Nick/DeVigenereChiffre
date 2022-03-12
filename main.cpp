@@ -153,7 +153,7 @@ int main() {
             }
         }
         //cout << "" << (char)j << " " << j << "; " << (char)fk << " " << fk << "; " << (char)tk << " " << tk << "; " << (char)fok << " " << fok << endl;
-        cout << "" << (char)j << " " << j << "; " << (char)fk << " " << fk << "; " << (char)tk << " " << tk << "; " << (char)fok << " " << fok << endl;
+        cout << (char)j << (char)fk << (char)tk << (char)fok  << endl;
 
     }
 
