@@ -62,7 +62,6 @@ int main() {
 } */
 //TODO: переписать поиск сдвига не по следующим элементам в массиве а по следующим элементам в алфавите
 //сайт конвертации https://www.cryptool.org/en/cto/vigenere? алфавит АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ_
-// <windows.h>
 #include <iostream>
 #include <fstream>
 #include <stdexcept>
