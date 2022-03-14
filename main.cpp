@@ -17,29 +17,6 @@ using namespace std;
 int main() {
     int counter = 22;
     while (counter--) {
-        /*
-        int first = 19;  //19
-        int second = 26;  //26
-        int third = 30;    //30
-        for (int j = 1072; j <= 1103; j++) {
-            int fk = j - first;
-            int tk = j - second;
-            int fok = j - third;
-            if (fk < 1072) {
-                fk += 32;
-            }
-            if (tk < 1072) {
-                tk += 32;
-            }
-            if (fok < 1072) {
-                fok += 32;
-            }
-            cout << "" << (char)j << (char)fk << (char)tk << (char)fok << endl;
-        }
-        cout << (int)"а";
-        cout << (int)"я";
-        cout << (int)"ё";
-        */
         int c;
         cout << "Enter key size: " << endl;
         cin >> c;
@@ -86,7 +63,6 @@ int main() {
                     fok = 128;
                 }
             }
-            //cout << "" << (char)j << " " << j << "; " << (char)fk << " " << fk << "; " << (char)tk << " " << tk << "; " << (char)fok << " " << fok << endl;
             cout << (char) j << (char) fk << (char) tk << (char) fok << endl;
         }
     }
