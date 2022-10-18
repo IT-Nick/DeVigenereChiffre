@@ -1,4 +1,4 @@
-/*string DeVIGENERE(string messange, string key)
+string DeVIGENERE(string messange, string key)
 {
     int position = 1;
     string decodirovka;
@@ -14,4 +14,4 @@
         else decodirovka += 159 - skey[position] + (i - 128) + 2;
     }
     return decodirovka;
-}*/
+}
